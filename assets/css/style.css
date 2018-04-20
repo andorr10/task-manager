@@ -1,0 +1,77 @@
+*{
+	text-align: center
+}
+
+.jumbotron{
+    padding-top: 2.25%;
+    padding-bottom: 2.25%;
+}
+
+#activity{
+  	overflow-y: scroll;
+  	height: 51vh;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+button:focus { outline:0 !important; }
+
+span{
+	margin-left: 72px;
+}
+.edit{
+	float: right;
+	box-shadow: none;
+	margin: 0 2px 0 2px;
+}
+
+.update{
+	float: right;
+	box-shadow: none;
+	margin: 0 2px 0 2px;
+}
+
+.delete{
+	float: right;
+	box-shadow: none;
+	margin: 0 2px 0 2px;
+}
+
+
+.circle{
+    border: 2px solid;
+    border-radius: 25px;
+    outline:0;
+    margin: 4px 0 4px 0;
+}
+
+.pick{
+    margin: 6px 0 6px 0;
+}
+
+.btn-lg{
+	width: 50%;
+	border-color: none;
+} 
+.filter-section{
+	margin: 100px;
+}
+
+.importance-low{
+	color: green;
+}
+.importance-medium{
+	color: #f9bd08;
+}
+.importance-high{
+	color:red;
+}
+.importance-bubble{
+	margin-left:25px;
+}
+/*.new-task-add{
+	margin-top:25px;
+}*/
+
